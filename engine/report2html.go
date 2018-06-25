@@ -757,7 +757,7 @@ func SaveAsHtml(htmlData HtmlData, projectPath, savePath, timestamp, tpl string)
 	}
 	projectName := utils.ProjectName(projectPath)
 	if savePath != "" {
-		htmlpath = strings.Replace(savePath+string(filepath.Separator)+projectName+"-"+timestamp+".html", string(filepath.Separator)+string(filepath.Separator), string(filepath.Separator), -1)
+		htmlpath = strings.Replace(savePath+string(filepath.Separator)+projectName+"-quality-report"+".html", string(filepath.Separator)+string(filepath.Separator), string(filepath.Separator), -1)
 		err = ioutil.WriteFile(htmlpath, out.Bytes(), 0666)
 		if err != nil {
 			glog.Errorln(err)
@@ -772,7 +772,7 @@ func SaveAsHtml(htmlData HtmlData, projectPath, savePath, timestamp, tpl string)
 		}
 
 	} else {
-		htmlpath = projectName + "-" + timestamp + ".html"
+		htmlpath = projectName + "-quality-report" + ".html"
 		err = ioutil.WriteFile(htmlpath, out.Bytes(), 0666)
 		if err != nil {
 			glog.Errorln(err)

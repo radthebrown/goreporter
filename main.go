@@ -111,7 +111,7 @@ func main() {
 	syncRW := &sync.RWMutex{}
 	waitGW := &engine.WaitGroupWrapper{}
 
-	reporter := engine.NewReporter(*projectPath, *reportPath, *reportFormat, templateHtml)
+	reporter := engine.NewReporter(*projectPath, *reportPath, *reportFormat, templateHtml, *exceptPackages)
 	strategyCountCode := &engine.StrategyCountCode{}
 	strategyCyclo := &engine.StrategyCyclo{}
 	strategyDeadCode := &engine.StrategyDeadCode{}

@@ -31,7 +31,7 @@ func Test_Engine(t *testing.T) {
 	syncRW := &sync.RWMutex{}
 	waitGW := &WaitGroupWrapper{}
 
-	reporter := NewReporter("../../../wgliang/logcool", "foo", "foo", "baz")
+	reporter := NewReporter("../../../wgliang/logcool", "foo", "foo", "baz", "")
 	strategyCopyCheck := &StrategyCopyCheck{}
 	strategyCountCode := &StrategyCountCode{}
 	strategyCyclo := &StrategyCyclo{}

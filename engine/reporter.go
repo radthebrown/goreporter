@@ -247,7 +247,7 @@ func (r *Reporter) GetFinalScore() (score float64) {
 	return
 }
 
-func NewReporter(projectPath, reportPath, reportFormat, htmlTemplate string) *Reporter {
+func NewReporter(projectPath, reportPath, reportFormat, htmlTemplate, exceptPackages string) *Reporter {
 	return &Reporter{
 		StartTime:    time.Now(),
 		Metrics:      make(map[string]Metric, 0),
@@ -255,6 +255,7 @@ func NewReporter(projectPath, reportPath, reportFormat, htmlTemplate string) *Re
 		ReportPath:   reportPath,
 		ReportFormat: reportFormat,
 		HtmlTemplate: htmlTemplate,
+		ExceptPackages: exceptPackages,
 	}
 }
 

@@ -70,7 +70,7 @@ func UnitTest(packagePath string) (packageUnitTestResults []string, packageTestR
 
 // run go test -cover
 func GoTestWithCoverAndRace(packagePath string) (packageUnitResult string, err error) {
-	cmd := exec.Command("go", "test", "-coverpkg", "./...", "./large_test", "-cover", "-coverprofile=test.out")
+	cmd := exec.Command("go", "test", "-coverpkg", "./...", packagePath, "-cover", "-coverprofile=test.out")
 	var out bytes.Buffer
 	cmd.Stdout = &out
 	// cmd.Stderr = os.Stderr
