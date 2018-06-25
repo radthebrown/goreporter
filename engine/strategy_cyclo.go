@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/360EntSecGroup-Skylar/goreporter/linters/cyclo"
-	"github.com/360EntSecGroup-Skylar/goreporter/utils"
+	"github.com/radthebrown/goreporter/linters/cyclo"
+	"github.com/radthebrown/goreporter/utils"
 )
 
 type StrategyCyclo struct {

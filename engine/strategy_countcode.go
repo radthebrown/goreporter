@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/360EntSecGroup-Skylar/goreporter/linters/countcode"
-	"github.com/360EntSecGroup-Skylar/goreporter/utils"
+	"github.com/radthebrown/goreporter/linters/countcode"
+	"github.com/radthebrown/goreporter/utils"
 )
 
 type StrategyCountCode struct {

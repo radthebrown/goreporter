@@ -27,8 +27,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/360EntSecGroup-Skylar/goreporter/engine"
-	"github.com/360EntSecGroup-Skylar/goreporter/engine/processbar"
+	"github.com/radthebrown/goreporter/engine"
+	"github.com/radthebrown/goreporter/engine/processbar"
 	"github.com/facebookgo/inject"
 )
 

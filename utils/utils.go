@@ -30,6 +30,7 @@ var (
 // DirList is a function that traverse the file directory containing the
 // specified file format according to the specified rule.
 func DirList(projectPath string, suffix, except string) (dirs map[string]string, err error) {
+	except = "deploy_test"
 	var relativePath string = ""
 	dirs = make(map[string]string, 0)
 	_, err = os.Stat(projectPath)

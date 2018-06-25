@@ -4,8 +4,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/360EntSecGroup-Skylar/goreporter/linters/interfacer"
-	"github.com/360EntSecGroup-Skylar/goreporter/utils"
+	"github.com/radthebrown/goreporter/linters/interfacer"
+	"github.com/radthebrown/goreporter/utils"
 )
 
 type StrategyInterfacer struct {

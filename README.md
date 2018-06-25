@@ -1,10 +1,10 @@
 ![goreporter](./logo.png)
 
-# goreporter [![Version Status](https://img.shields.io/badge/v3.0-release-blue.svg)](https://github.com/360EntSecGroup-Skylar/goreporter/releases/tag/version3.0)
+# goreporter [![Version Status](https://img.shields.io/badge/v3.0-release-blue.svg)](https://github.com/radthebrown/goreporter/releases/tag/version3.0)
 
-[![Current Release](https://img.shields.io/github/release/360EntSecGroup-Skylar/goreporter.svg)](https://github.com/360EntSecGroup-Skylar/goreporter/releases/latest)
+[![Current Release](https://img.shields.io/github/release/360EntSecGroup-Skylar/goreporter.svg)](https://github.com/radthebrown/goreporter/releases/latest)
 [![Build Status](https://travis-ci.org/360EntSecGroup-Skylar/goreporter.svg?branch=master)](https://travis-ci.org/360EntSecGroup-Skylar/goreporter)
-[![GoDoc](https://godoc.org/github.com/360EntSecGroup-Skylar/goreporter?status.svg)](https://godoc.org/github.com/360EntSecGroup-Skylar/goreporter)
+[![GoDoc](https://godoc.org/github.com/radthebrown/goreporter?status.svg)](https://godoc.org/github.com/radthebrown/goreporter)
 [![License](https://img.shields.io/badge/LICENSE-Apache2.0-ff69b4.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
 
 A Golang tool that does static analysis, unit testing, code review and generate code quality report. This is a tool that concurrently runs a whole bunch of those linters and normalizes their output to a report:
@@ -43,7 +43,7 @@ A Golang tool that does static analysis, unit testing, code review and generate 
 - [misspell](https://github.com/client9/misspell) - Correct commonly misspelled English words... quickly.
 - [countcode](https://github.com/bytbox/sloc) - Count lines and files of project.
 - [interfacer](https://github.com/mvdan/interfacer) - Suggest narrower interfaces that can be used.
-- [depth](https://github.com/360EntSecGroup-Skylar/goreporter/tree/feature-3.0/linters/depth) - Count the maxdepth of go functions.
+- [depth](https://github.com/radthebrown/goreporter/tree/feature-3.0/linters/depth) - Count the maxdepth of go functions.
 - [flen](https://github.com/lafolle/flen) - Flen provides stats on functions/methods lengths in a Golang package.
 
 ## Template
@@ -67,7 +67,7 @@ A Golang tool that does static analysis, unit testing, code review and generate 
 Install goreporter (see above).
 
 ```bash
-go get -u github.com/360EntSecGroup-Skylar/goreporter
+go get -u github.com/radthebrown/goreporter
 ```
 
 ## Run it:

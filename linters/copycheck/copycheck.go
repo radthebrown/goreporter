@@ -9,9 +9,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/360EntSecGroup-Skylar/goreporter/linters/copycheck/job"
-	"github.com/360EntSecGroup-Skylar/goreporter/linters/copycheck/output"
-	"github.com/360EntSecGroup-Skylar/goreporter/linters/copycheck/syntax"
+	"github.com/radthebrown/goreporter/linters/copycheck/job"
+	"github.com/radthebrown/goreporter/linters/copycheck/output"
+	"github.com/radthebrown/goreporter/linters/copycheck/syntax"
 	"github.com/golang/glog"
 )
 
